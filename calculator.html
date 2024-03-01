@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <style>
+            h1{
+                position:absolute;
+                top:20px;
+                left:200px;
+            }
+table{
+    background-color: black;
+    border:20px sloid;
+    margin:150px;
+    width:300px;
+    border-radius:20px;
+}
+input{
+    border-radius:100px;
+    width:50px;
+    margin:20px;
+    background-color: grey;
+}
+.a{
+   background-color: yellow;
+}
+.b:hover{
+    background-color: pink;
+}
+tr{
+    color:white;
+
+}
+h1{
+    color:blueviolet;
+}
+        </style>
+    </head>
+    <body>
+        <h1><center>
+            CALCULATOR
+        </center></h1>
+        <table>
+           <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>0122</td>
+        </tr>
+        <tr>
+                <td> <input class="b" type="text" value="c"></td>
+                <td> <input  class="b" type="text" value="/"></td>
+                <td> <input class="b" type="text" value="%"></td>
+                <td> <input class="a" type="text" value="+"></td>
+            </tr>
+            <tr>
+                <td> <input class="b" type="text" value="9"></td>
+                <td> <input  class="b" type="text" value="8"></td>
+                <td> <input  class="b" type="text" value="7"></td>
+                <td> <input class="a" type="text" value="-"></td>
+            </tr>
+            <tr>
+                <td> <input class="b" type="text" value="6"></td>
+                <td> <input   class="b" type="text" value="5"></td>
+                <td> <input class="b"type="text" value="4"></td>
+                <td> <input class="a" type="text" value="*"></td>
+            </tr>
+            <tr>
+                <td> <input class="b"type="text" value="3"></td>
+                <td> <input class="b"type="text" value="2"></td>
+                <td> <input class="b"type="text" value="1"></td>
+                <td> <input class="a" type="text" value="+"></td>
+            </tr>
+            <tr>
+                <td> <input class="b" type="text" value="0"></td>
+                <td> <input  class="b"type="text" value="."></td>
+                <td> <input class="b"type="text" value="="></td>
+                <td> <input class="a" type="text" value="+"></td>
+            </tr>
+        </table>
+    </body>
+</html>
